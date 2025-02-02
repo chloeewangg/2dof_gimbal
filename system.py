@@ -13,8 +13,8 @@ import traceback
 # to the file names of your two code parts.  Also, this is a great way
 # to quickly switch which detector to run.  E.g. you could import from
 # "facedetector" in place or "balldetector".
-from step8controller import controller
-from step8detector import detector
+from controller import controller
+from detector import detector
 # from goals7facedetector import detector     # Alternate option
 
 
