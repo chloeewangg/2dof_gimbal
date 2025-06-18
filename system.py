@@ -1,22 +1,14 @@
-"""goals7system.py
+"""system.py
 
    This is the main script that coordinates both the controller and
    the detector.  Feel free to play/edit/...
 
 """
-
 # Import the system parts
 import threading
 import traceback
-
-# Import your pieces.  Change the "from" names (being the file names)
-# to the file names of your two code parts.  Also, this is a great way
-# to quickly switch which detector to run.  E.g. you could import from
-# "facedetector" in place or "balldetector".
 from controller import controller
 from detector import detector
-# from goals7facedetector import detector     # Alternate option
-
 
 #
 #  Shared Data
