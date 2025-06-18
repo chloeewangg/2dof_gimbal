@@ -11,14 +11,11 @@
 #
 def controller(shared):
     import hebi
-    from math import inf, sin, cos
+    from math import inf, sin, cos, pi, asin, acos, atan2, sqrt
     import numpy as np              
     import matplotlib.pyplot as plt
-
-    from math import pi, sin, cos, asin, acos, atan2, sqrt
     from time import sleep, time
     from keycheck import kbhit, getch
-
     from enum import Enum
 
     names = ['6.7', '9.7']
