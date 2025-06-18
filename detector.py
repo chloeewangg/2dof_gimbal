@@ -1,16 +1,10 @@
-'''goals7detector.py
+'''detector.py
 
    This encapsulates the object detector code into a single function.
 '''
-
-#
-#   Define your entire code as a function.  The argument will be the
-#   shared data that is accessed by both pieces.
-#
 import cv2
 
 def detector(shared):
-    # Place all your code here.  Note you will have to indent EVERYTHING.
     camera = cv2.VideoCapture(0, cv2.CAP_V4L2)
     if not camera.isOpened():
         raise Exception(
