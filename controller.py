@@ -1,4 +1,4 @@
-'''goals7controller.py
+'''controller.py
 
    This encapsulates the motor control code into a single function.
 '''
