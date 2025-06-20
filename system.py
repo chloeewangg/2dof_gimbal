@@ -1,7 +1,7 @@
 """system.py
 
    This is the main script that coordinates both the controller and
-   the detector.  Feel free to play/edit/...
+   the detector.  
 
 """
 # Import the system parts
